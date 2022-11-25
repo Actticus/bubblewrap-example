@@ -1,0 +1,308 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="com.sensorehab.app.twa"
+26    android:versionCode="1"
+27    android:versionName="1" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="23"
+30-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml
+31        android:targetSdkVersion="31" />
+31-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml
+32
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->[com.google.androidbrowserhelper:locationdelegation:1.0.1] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\6533a4776060e2dafc326b30a0222ee1\locationdelegation-1.0.1\AndroidManifest.xml:11:5-79
+33-->[com.google.androidbrowserhelper:locationdelegation:1.0.1] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\6533a4776060e2dafc326b30a0222ee1\locationdelegation-1.0.1\AndroidManifest.xml:11:22-76
+34
+35    <queries>
+35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\2a4780e5ae3e94fb64dd0623d9799b3d\androidbrowserhelper-2.4.0\AndroidManifest.xml:26:5-34:15
+36        <intent>
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\2a4780e5ae3e94fb64dd0623d9799b3d\androidbrowserhelper-2.4.0\AndroidManifest.xml:27:9-33:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:134:17-68
+37-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:134:25-66
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:136:17-77
+39-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:136:27-75
+40
+41            <data android:scheme="https" />
+41-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:137:17-138:54
+41-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:137:23-45
+42        </intent>
+43    </queries>
+44
+45    <application
+45-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:33:5-180:19
+46        android:name="com.sensorehab.app.twa.Application"
+46-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:34:9-35
+47        android:allowBackup="true"
+47-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:35:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\e601daed4ba62929db8b322b2974c8f8\core-1.1.0\AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:icon="@mipmap/ic_launcher"
+51-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:36:9-43
+52        android:label="@string/appName"
+52-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:37:9-40
+53        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+53-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:39:9-105
+54        android:supportsRtl="true"
+54-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:41:9-35
+55        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:42:9-68
+56        <meta-data
+56-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:44:9-46:58
+57            android:name="asset_statements"
+57-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:45:13-44
+58            android:resource="@string/assetStatements" />
+58-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:46:13-55
+59        <meta-data
+59-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:49:13-51:58
+60            android:name="web_manifest_url"
+60-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:50:17-48
+61            android:value="@string/webManifestUrl" />
+61-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:51:17-55
+62        <meta-data
+62-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:54:9-56:52
+63            android:name="twa_generator"
+63-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:55:13-41
+64            android:value="@string/generatorApp" />
+64-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:56:13-49
+65
+66        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+66-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:63:13-67:24
+66-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:63:23-104
+67            <meta-data
+67-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:64:13-66:53
+68                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+68-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:65:17-83
+69                android:value="@string/launchUrl" />
+69-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:66:17-50
+70        </activity>
+71        <activity
+71-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:70:9-142:20
+72            android:name="com.sensorehab.app.twa.LauncherActivity"
+72-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:70:19-50
+73            android:alwaysRetainTaskState="true"
+73-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:71:13-49
+74            android:exported="true"
+74-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:73:13-36
+75            android:label="@string/launcherName" >
+75-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:72:13-49
+76            <meta-data
+76-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:74:13-75:53
+77                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+77-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:74:24-85
+78                android:value="@string/launchUrl" />
+78-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:75:17-50
+79            <meta-data
+79-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:77:13-79:58
+80                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+80-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:78:17-83
+81                android:resource="@color/colorPrimary" />
+81-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:79:17-55
+82            <meta-data
+82-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:81:13-83:61
+83                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+83-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:82:17-87
+84                android:resource="@color/navigationColor" />
+84-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:83:17-58
+85            <meta-data
+85-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:85:13-87:65
+86                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+86-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:86:17-92
+87                android:resource="@color/navigationColorDark" />
+87-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:87:17-62
+88            <meta-data
+88-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:89:13-91:68
+89                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+89-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:90:17-84
+90                android:resource="@color/navigationDividerColor" />
+90-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:91:17-65
+91            <meta-data
+91-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:93:13-95:72
+92                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+92-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:94:17-89
+93                android:resource="@color/navigationDividerColorDark" />
+93-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:95:17-69
+94            <meta-data
+94-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:97:13-98:54
+95                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+95-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:97:24-95
+96                android:resource="@drawable/splash" />
+96-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:98:17-52
+97            <meta-data
+97-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:100:13-101:60
+98                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+98-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:100:24-104
+99                android:resource="@color/backgroundColor" />
+99-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:101:17-58
+100            <meta-data
+100-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:103:13-104:71
+101                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+101-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:103:24-105
+102                android:value="@integer/splashScreenFadeOutDuration" />
+102-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:104:17-69
+103            <meta-data
+103-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:106:13-107:60
+104                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+104-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:106:24-97
+105                android:value="@string/providerAuthority" />
+105-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:107:17-58
+106            <meta-data
+106-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:109:13-97
+107                android:name="android.app.shortcuts"
+107-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:109:24-60
+108                android:resource="@xml/shortcuts" />
+108-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:109:61-94
+109            <meta-data
+109-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:111:13-112:56
+110                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+110-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:111:24-91
+111                android:value="@string/fallbackType" />
+111-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:112:17-53
+112            <meta-data
+112-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:117:13-118:45
+113                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+113-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:117:24-86
+114                android:value="immersive" />
+114-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:118:17-42
+115            <meta-data
+115-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:121:13-122:54
+116                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+116-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:121:24-92
+117                android:value="@string/orientation" />
+117-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:122:17-52
+118
+119            <intent-filter>
+119-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:128:13-131:29
+120                <action android:name="android.intent.action.MAIN" />
+120-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:129:17-69
+120-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:129:25-66
+121
+122                <category android:name="android.intent.category.LAUNCHER" />
+122-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:130:17-77
+122-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:130:27-74
+123            </intent-filter>
+124            <intent-filter android:autoVerify="true" >
+124-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:133:13-139:29
+124-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:133:28-53
+125                <action android:name="android.intent.action.VIEW" />
+125-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:134:17-68
+125-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:134:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:135:17-76
+127-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:135:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:136:17-77
+128-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:136:27-75
+129
+130                <data
+130-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:137:17-138:54
+131                    android:host="@string/hostName"
+131-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:138:21-52
+132                    android:scheme="https" />
+132-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:137:23-45
+133            </intent-filter>
+134        </activity>
+135        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+135-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:144:9-90
+135-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:144:19-87
+136        <activity
+136-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:146:9-147:62
+137            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+137-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:146:19-97
+138            android:configChanges="orientation|screenSize" />
+138-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:147:13-59
+139
+140        <provider
+140-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:149:9-157:20
+141            android:name="androidx.core.content.FileProvider"
+141-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:150:13-62
+142            android:authorities="@string/providerAuthority"
+142-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:151:13-60
+143            android:exported="false"
+143-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:153:13-37
+144            android:grantUriPermissions="true" >
+144-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:152:13-47
+145            <meta-data
+145-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:154:13-156:53
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:155:17-67
+147                android:resource="@xml/filepaths" />
+147-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:156:17-50
+148        </provider>
+149
+150        <service
+150-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:159:9-174:19
+151            android:name="com.sensorehab.app.twa.DelegationService"
+151-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:160:13-46
+152            android:enabled="@bool/enableNotification"
+152-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:161:13-55
+153            android:exported="@bool/enableNotification" >
+153-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:162:13-56
+154            <meta-data
+154-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:165:17-167:73
+155                android:name="android.support.customtabs.trusted.SMALL_ICON"
+155-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:166:21-81
+156                android:resource="@drawable/ic_notification_icon" />
+156-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:167:21-70
+157
+158            <intent-filter>
+158-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:170:13-173:29
+159                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+159-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:171:17-105
+159-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:171:25-103
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:135:17-76
+161-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:135:27-73
+162            </intent-filter>
+163        </service>
+164
+165        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
+165-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:177:13-178:89
+165-->C:\Users\salty\senso\frontend\android\app\src\main\AndroidManifest.xml:177:23-123
+166        <activity
+166-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\salty\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+174    </application>
+175
+176</manifest>
